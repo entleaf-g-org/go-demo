@@ -15,7 +15,7 @@ func (p Person) Secret (test string) string {
 	return string(out)
 }
 
-func (p Person) Label (test string) string {
+func (p Person) Label (test string) string {{
 	return "This is " + string(test)
 }
 
